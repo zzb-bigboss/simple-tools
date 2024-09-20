@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add typescript -D
+
+PATH: 
+  D:\Java\jdk-17\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;D:\Program Files\Git\cmd;D:\apache-maven-3.8.5\bin;D:\mysql-8.0.29-winx64\bin;D:\mysql-8.0.29-winx64\bin;C:\Program Files\Dart\dart-sdk\bin;D:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python311\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Haulmont\CUBA Studio 2019.3\bin;;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.1\bin;;C:\Program Files\Java\jdk1.8.0_321\bin;C:\Users\Administrator\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: certificate has expired
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1550:34)
+      at TLSSocket.emit (node:events:514:28)
+      at TLSSocket._finishInit (node:_tls_wrap:967:8)
+      at ssl.onhandshakedone (node:_tls_wrap:743:12)
+
+npm manifest: 
+  {
+    "name": "simple-tools",
+    "version": "1.0.0",
+    "description": "simple and easy to use tools and methods",
+    "main": "index.js",
+    "directories": {
+      "test": "test"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "tools",
+      "methods",
+      "console",
+      "format"
+    ],
+    "author": "zzb",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
